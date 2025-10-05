@@ -27,3 +27,44 @@
   color: #ffcc00;
 }
 
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.gallery-item {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.gallery-item img,
+.gallery-item video {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.caption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #ccc;
+}
+
