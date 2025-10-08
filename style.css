@@ -82,3 +82,26 @@ img, video {
   color: #ccc;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #111;
+  padding: 15px 0;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00ffff; /* Neon ops glow */
+}
+
+nav a:active {
+  color: #ff6600; /* Tactical orange */
+}
+
