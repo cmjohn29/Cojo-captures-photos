@@ -68,3 +68,17 @@ h1 {
   color: #ccc;
 }
 
+.gallery-item, .video-container {
+  margin: 20px;
+  text-align: center;
+}
+img, video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.caption {
+  font-style: italic;
+  color: #ccc;
+}
+
